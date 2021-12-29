@@ -1,0 +1,24 @@
+﻿<Window x:Class="MessageBoardClient.HowToPlay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="HowToPlay" Height="450" Width="488.4">
+    <Grid>
+        <Label Content="How To Play" HorizontalAlignment="Left" Margin="140,10,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label Content="General Info" FontSize="20" HorizontalAlignment="Left" Margin="21,76,0,0" VerticalAlignment="Top"/>
+        <Label Content="-Players start with 5 cards each" HorizontalAlignment="Left" Margin="21,113,0,0" VerticalAlignment="Top"/>
+        <Label Content="-Players get a point when collecting 2 of the same card value" HorizontalAlignment="Left" Margin="21,139,0,0" VerticalAlignment="Top"/>
+        <Label Content="-When all cards in deck are gone the player with the most points wins" HorizontalAlignment="Left" Margin="21,165,0,0" VerticalAlignment="Top"/>
+        <Label Content="Button Info" FontSize="20" HorizontalAlignment="Left" Margin="21,191,0,0" VerticalAlignment="Top"/>
+        <Label Content="-'Ask Player For Match' can be used by clicking a card of your own and then" HorizontalAlignment="Left" Margin="21,229,0,0" VerticalAlignment="Top"/>
+        <Label Content="selecting a user that you wish to attempt to steal from." HorizontalAlignment="Left" Margin="21,245,0,0" VerticalAlignment="Top"/>
+        <Label Content="-'Check Book' can be used by clicking 2 cards in your hand and then pressing" HorizontalAlignment="Left" Margin="21,271,0,0" VerticalAlignment="Top"/>
+        <Label Content="the button." HorizontalAlignment="Left" Margin="21,288,0,0" VerticalAlignment="Top"/>
+        <Label Content="-'Play Book' can be used the same way as 'Check Book' exapt this will actually" HorizontalAlignment="Left" Margin="21,314,0,0" VerticalAlignment="Top"/>
+        <Label Content="play the book when pressed and award points accordingly." HorizontalAlignment="Left" Margin="21,330,0,0" VerticalAlignment="Top"/>
+        <Label Content="Every Button above will print out a response to the user in the 'messages' box at the top" FontSize="12" FontStyle="Italic" HorizontalAlignment="Left" Margin="0,361,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\bin\Debug\MessageBoardClient.exe.config
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\bin\Debug\MessageBoardClient.exe
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\bin\Debug\MessageBoardClient.pdb
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\bin\Debug\MessageBoardLibrary.dll
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\bin\Debug\MessageBoardLibrary.pdb
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\obj\Debug\MessageBoardClient.csprojAssemblyReference.cache
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\obj\Debug\MainWindow.baml
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\obj\Debug\MainWindow.g.cs
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\obj\Debug\App.g.cs
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\obj\Debug\MessageBoardClient_MarkupCompile.cache
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\obj\Debug\MessageBoardClient.g.resources
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\obj\Debug\MessageBoardClient.Properties.Resources.resources
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\obj\Debug\MessageBoardClient.csproj.GenerateResource.cache
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\obj\Debug\MessageBoardClient.csproj.CoreCompileInputs.cache
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\obj\Debug\MessageBoardClient.csproj.CopyComplete
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\obj\Debug\MessageBoardClient.exe
+D:\SCHOOL\WINTER2021SCHOOL\Component based programming\inclass examples\MessageBoard Service with Client Callbacks\MessageBoardClient\obj\Debug\MessageBoardClient.pdb

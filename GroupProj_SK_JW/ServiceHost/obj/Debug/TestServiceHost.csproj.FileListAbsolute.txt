@@ -1,0 +1,10 @@
+C:\Users\Jordans's PC\Desktop\WCF Example with callbacks and console client demonstrating 'turn-taking'\TestServiceHost\bin\Debug\TestServiceHost.exe.config
+C:\Users\Jordans's PC\Desktop\WCF Example with callbacks and console client demonstrating 'turn-taking'\TestServiceHost\bin\Debug\TestServiceHost.exe
+C:\Users\Jordans's PC\Desktop\WCF Example with callbacks and console client demonstrating 'turn-taking'\TestServiceHost\bin\Debug\TestServiceHost.pdb
+C:\Users\Jordans's PC\Desktop\WCF Example with callbacks and console client demonstrating 'turn-taking'\TestServiceHost\bin\Debug\TestLibrary.dll
+C:\Users\Jordans's PC\Desktop\WCF Example with callbacks and console client demonstrating 'turn-taking'\TestServiceHost\bin\Debug\TestLibrary.pdb
+C:\Users\Jordans's PC\Desktop\WCF Example with callbacks and console client demonstrating 'turn-taking'\TestServiceHost\obj\Debug\TestServiceHost.csprojAssemblyReference.cache
+C:\Users\Jordans's PC\Desktop\WCF Example with callbacks and console client demonstrating 'turn-taking'\TestServiceHost\obj\Debug\TestServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\Jordans's PC\Desktop\WCF Example with callbacks and console client demonstrating 'turn-taking'\TestServiceHost\obj\Debug\TestServiceHost.csproj.CopyComplete
+C:\Users\Jordans's PC\Desktop\WCF Example with callbacks and console client demonstrating 'turn-taking'\TestServiceHost\obj\Debug\TestServiceHost.exe
+C:\Users\Jordans's PC\Desktop\WCF Example with callbacks and console client demonstrating 'turn-taking'\TestServiceHost\obj\Debug\TestServiceHost.pdb

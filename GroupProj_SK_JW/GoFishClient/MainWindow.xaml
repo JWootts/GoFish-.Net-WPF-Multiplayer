@@ -1,0 +1,23 @@
+﻿<Window x:Class="MessageBoardClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Go Fish" Height="520" Width="749" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+    <Grid>
+        <Button Content="How To Play" HorizontalAlignment="Left" Margin="22,443,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click" FontWeight="Bold" FontFamily="Segoe Print" />
+        <Label Content="Enter Username:" Height="33" HorizontalAlignment="Left" Margin="29,72,0,0" x:Name="label1" VerticalAlignment="Top" Width="189" FontWeight="Bold" FontFamily="Segoe Print"  />
+        <TextBox Height="31" HorizontalAlignment="Left" Margin="145,74,0,0" x:Name="textAlias" VerticalAlignment="Top" Width="446" VerticalContentAlignment="Center"/>
+        <Button Content="Confirm Entry" Height="31" HorizontalAlignment="Left" IsEnabled="True" Margin="612,74,0,0" x:Name="buttonEnter" VerticalAlignment="Top" Width="108" Click="buttonEnter_Click" FontWeight="Bold" FontFamily="Segoe Print" />
+        <GroupBox Header="List Of Players" Height="267" HorizontalAlignment="Left" Margin="16,110,0,0" x:Name="groupBox2" VerticalAlignment="Top" Width="704" FontWeight="Bold" FontFamily="Segoe Print" />
+        <Grid Margin="22,134,13.4,104.4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25*" />
+                <ColumnDefinition Width="94*"/>
+                <ColumnDefinition Width="272*"/>
+                <ColumnDefinition Width="317*" />
+            </Grid.ColumnDefinitions>
+            <ListBox HorizontalAlignment="Left" Margin="10,10,0,60" x:Name="listMessages" Width="676" IsEnabled="False" Grid.ColumnSpan="4" FontWeight="Bold" FontFamily="Segoe Print" />
+        </Grid>
+        <Button x:Name="b_StartGame" Content="START GAME" HorizontalAlignment="Left" Margin="261,414,0,0" VerticalAlignment="Top" Width="183" FontSize="25" FontWeight="Bold" FontFamily="Segoe Print" Click="StartGame_Click" IsEnabled="False" />
+        <Label Content="Go-Fish Lobby" HorizontalAlignment="Left" Margin="247,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Segoe Print" FontSize="30"/>
+    </Grid>
+</Window>
