@@ -1,13 +1,4 @@
-﻿/*
- * Author: Jordan Wootton & Steven Sadl-Kolchetski
- * Date: 4/10/2021
- * Class: Component Based Programming with .Net
- * Professor: Tony Haworth
- * Project: Project 2 (Group) - Personal Game (GoFish)
- * File: Hand.cs
- */
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
 
 namespace GoFish
@@ -77,13 +68,14 @@ namespace GoFish
 			string returnString = "";
 			foreach (Card c in book)
 				returnString += $"{c.CardSuit}, {c.Number} \n";
+
 			TotalBooks++; //User has played a hand/book
 			return returnString;
 		}
 
 		public string ShowReturnedCard(Card stolenCard)
 		{
-			return $"Card Stolen: {stolenCard.CardSuit.ToString()}, {stolenCard.Number}";
+			return $"Card Stolen: {stolenCard.CardSuit}, {stolenCard.Number}";
 		}
 
 		public Card CheckForMatch(Card card)

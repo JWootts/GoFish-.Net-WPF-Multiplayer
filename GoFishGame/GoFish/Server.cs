@@ -1,13 +1,4 @@
-﻿/*
- * Author: Jordan Wootton & Steven Sadl-Kolchetski
- * Date: 4/10/2021
- * Class: Component Based Programming with .Net
- * Professor: Tony Haworth
- * Project: Project 2 (Group) - Personal Game (GoFish)
- * File: Server.cs
- */
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel;
@@ -106,8 +97,10 @@ namespace GoFish
         {
             Console.WriteLine(_deck.CardsInDeck.Count);
             List<string> _usernames = new List<string>();
+
             foreach (Users u in _users)
                 _usernames.Add(u.UserName);
+
             return _usernames.ToArray<string>();
         }
 
@@ -142,7 +135,6 @@ namespace GoFish
         public List<Card> PlayBook(List<Card> book, Users userPlaying)
 		{
             foreach (Users u in _users)
-            {
                 if (u.UserName == userPlaying.UserName)
                 {
                     List<Card> tmpHand = u.Hand.CurrentCardsList;
@@ -160,7 +152,7 @@ namespace GoFish
                     UpdateBookPlayed(new Scored(u, u.Score), _currentPlayerIndex);
                     return u.Hand.CurrentCardsList; //Return that book was played
                 }
-            }
+
             return null; //Username not found as player
         }
 
@@ -200,11 +192,8 @@ namespace GoFish
         public Card SearchPlayerForMatch(string enemy, Card card, Users currentUsers)
         {
             foreach(Users u in _users) // look through the list of players
-            {
                 if(enemy == u.UserName) //if the selected enemy matches the one in the list
-                {
                     foreach(Card c in u.Hand.CurrentCardsList) //look at every card in the enemies list
-                    {
                         if(c.Number == card.Number) //if enemy player has a matching VALUE
                         {
                             Card cTemp = c;
@@ -214,9 +203,7 @@ namespace GoFish
                             UpdateClientsCardRequested(u, $"{currentUsers.UserName} STOLE {cTemp} from {enemy}!", _currentPlayerIndex);
                             return cTemp; //return that back to the plaer who asked
                         }
-                    }
-                }
-            }
+           
             _currentPlayerIndex = (_users.Count - 1 > _currentPlayerIndex) ? (_currentPlayerIndex + 1) : 0; //increment current player count after hand has been player if does not fall out of play list scope
             UpdateClientsCardRequested(null, $"{enemy} MADE {currentUsers.UserName} GOFISH!", _currentPlayerIndex);
             return null; //return null if card is not found
@@ -227,12 +214,14 @@ namespace GoFish
 		{
             Users highestScoreUser = null; //Assing first user as starting point
             int highestScore = int.MinValue;
+
             foreach (Users u in _users)
                 if (highestScore < u.Score)
                 {
                     highestScoreUser = u;
                     highestScore = u.Score;
                 }
+
             _winner = highestScoreUser;
             UpdateGameOver();//Call update on clients 
         }
@@ -247,9 +236,11 @@ namespace GoFish
         private bool hasUser(string name)
         {
             bool flag = false;
+
             foreach (Users u in _users)
                 if (u.UserName == name.ToUpper())
                     return true;
+
             return flag;
         }
 
@@ -302,10 +293,6 @@ namespace GoFish
             //run final callbacks
             foreach (ICallback cb in callbacks.Values)
                 cb.Update(NumDeckCards(), GetAllUsers(), false, null, null, null, false, -1, true); //Set playJoined field to true
-
-            //flush server (Game Done)
-            //_deck = null;
-            //_users = null;
         }
     }
 }

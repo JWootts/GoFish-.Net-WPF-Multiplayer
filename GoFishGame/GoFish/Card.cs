@@ -1,13 +1,4 @@
-﻿/*
- * Author: Jordan Wootton & Steven Sadl-Kolchetski
- * Date: 4/10/2021
- * Class: Component Based Programming with .Net
- * Professor: Tony Haworth
- * Project: Project 2 (Group) - Personal Game (GoFish)
- * File: Card.cs
- */
-
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 namespace GoFish
 {
 	[DataContract]
@@ -27,6 +18,7 @@ namespace GoFish
 		//--------------------- Public accessors for returning Card Contents
 		[DataMember]
 		public Suit CardSuit { get => this.cardSuit; set => this.cardSuit = value; }
+
 		[DataMember]
 		public FaceValue Number { get => this.number; set => this.number = value; }
 

@@ -1,14 +1,4 @@
-﻿/*
- * Author: Jordan Wootton & Steven Sadl-Kolchetski
- * Date: 4/10/2021
- * Class: Component Based Programming with .Net
- * Professor: Tony Haworth
- * Project: Project 2 (Group) - Personal Game (GoFish)
- * File: Scored.cs
- */
-
-
-using System.Runtime.Serialization; // WCF data contract types
+﻿using System.Runtime.Serialization; // WCF data contract types
 
 namespace GoFish
 {
@@ -20,6 +10,7 @@ namespace GoFish
 	{
 		[DataMember]
 		public Users UserScored { get; private set; }
+
 		[DataMember]
 		public int NewScore { get; set; }
 

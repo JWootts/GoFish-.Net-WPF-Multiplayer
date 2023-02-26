@@ -1,13 +1,4 @@
-﻿/*
- * Author: Jordan Wootton & Steven Sadl-Kolchetski
- * Date: 4/10/2021
- * Class: Component Based Programming with .Net
- * Professor: Tony Haworth
- * Project: Project 2 (Group) - Personal Game (GoFish)
- * File: CardValues.cs
- */
-
-//-- Contains ENUM types for creating card types within current 'bag' context
+﻿//-- Contains ENUM types for creating card types within current 'bag' context
 using System.Runtime.Serialization;
 namespace GoFish
 {
